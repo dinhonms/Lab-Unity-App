@@ -1,0 +1,11 @@
+framework module SaveMediaToGallery {
+  umbrella header "SaveMediaToGallery.h"
+
+  export *
+  module * { export * }
+}
+
+module SaveMediaToGallery.Swift {
+  header "SaveMediaToGallery-Swift.h"
+  requires objc
+}
